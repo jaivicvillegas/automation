@@ -4,15 +4,13 @@
   "output": "./output",
   "helpers": {
     "Puppeteer": {
-      "url": "https://www.somosbelcorp.com/",
-      "browser": "chrome", 
-      "angular": false,
-        "show": false
+      "url": "https://www.somosbelcorp.com/"  ,
+  "uniqueScreenshotNames": true
+    },
+    "Mochawesome": {
+  
     }
   },
- 
- 
- 
   "include": {
     "I": "./steps_file.js",
     "generalPage": "./pages/general.js"
@@ -21,6 +19,7 @@
   "mocha": {
     "reporterOptions": {
       "reportDir": "./output/"
+    
     }
   },
   "name": "automation"
