@@ -50,7 +50,7 @@ Scenario('Registered user should login to SB México and logout', (I,generalPage
     generalPage.sendForm('MX','usuariopruebamx','1234567');
 });
 
-Scenario('Registered user should login to SB Panamá and logout',(I,generalPage) => {
+Scenario('Registered user should login to SB Panama and logout',(I,generalPage) => {
     generalPage.sendForm('PA','usuariopruebapa','1234567');
 });
 
