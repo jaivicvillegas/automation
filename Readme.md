@@ -166,3 +166,38 @@ declare module "codeceptjs" {
 ```
 15. Ejecutar una prueba del tipo "login" indicado en el grep: yarn run test
 16. Para crear en modo page object usar: codeceptjs gpo
+
+
+
+EN WINDOWS
+
+pre requisitos
+debes tener instalado 
+git
+node
+npm
+
+
+Abre el git bash como administrador y ejecuta los siguientes comandos
+
+npm i npm@latest -g
+npm i -g codeceptjs
+npm i -g puppeteer@^1.0.0
+npm i -g  mocha@*
+npm i -g mochawesome-report-generator
+npm i -g mochawesome
+
+ve a la carpeta del proyecto y ejecuta el siguiente comando
+
+npm i  codeceptjs-puppeteer
+
+
+prueba 
+codeceptjs run --reporter mochawesome
+
+
+si usas npm install 
+
+las pruebas podrias usar para pruebas 
+
+./node_modules/.bin/codeceptjs run --reporter mochawesome
