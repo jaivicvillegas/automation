@@ -9,7 +9,7 @@ Scenario('Dado un usuario de Peru registrado y activo, cuando realiza login, ent
     I.fillField('CodigoUsuario','usuariopruebape');
     I.fillField('ClaveSecreta','1234567');
     I.click('#btnLogin');
-     I.wait(2);
+    I.wait(2);
     I.amOnPage('/Bienvenida');
     I.see('MI ESTADO DE CUENTA');
     I.click('//*[@id="lnk-sup-cerrar-sesion"]');
@@ -20,12 +20,12 @@ Scenario('Dado un usuario de Bolivia registrado y activo, cuando realiza login, 
     generalPage.sendForm('BO', 'usuariopruebabo', '1234567');
 });
 
-
+/*
 
 Scenario('Registered user should login to SB Chile and logout', (I,generalPage) => {
     generalPage.sendForm('CL','usuariopruebacl','1234567');
 });
-/*
+
 Scenario('Registered user should login to SB Colombia and logout', (I,generalPage) => {
     generalPage.sendForm('CO','usuariopruebaco','1234567');
 });

@@ -28,6 +28,7 @@ module.exports = {
     I.click(this.submitButton);
     I.wait(2);
     I.amOnPage('/Bienvenida');
+    
     I.click('//*[@id="PopShowroomVenta"]/div/a/img');
     I.see('MI ESTADO DE CUENTA');
     I.wait('2');
