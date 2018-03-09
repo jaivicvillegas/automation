@@ -25,7 +25,7 @@ Scenario('Dado un usuario de Bolivia registrado y activo, cuando realiza login, 
 Scenario('Registered user should login to SB Chile and logout', (I,generalPage) => {
     generalPage.sendForm('CL','usuariopruebacl','1234567');
 });
-
+/*
 Scenario('Registered user should login to SB Colombia and logout', (I,generalPage) => {
     generalPage.sendForm('CO','usuariopruebaco','1234567');
 });
@@ -105,4 +105,4 @@ Scenario('Registered user should login to admsac and logout', (I) => {
     I.amOnPage('/Bienvenida');
     I.wait(2);
     I.click('//*[@id="header_tsmv"]/div[1]/div[3]/span/a');
-}); 
+}); */
