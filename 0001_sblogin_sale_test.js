@@ -10,13 +10,13 @@ Scenario('Dado un usuario de Peru registrado y activo, cuando realiza login, ent
     I.fillField('ClaveSecreta','1234567');
     I.click('#btnLogin');
     I.wait(2);
-    I.amOnPage('/Bienvenida');
+    I.amOnPage('/Bienvenidax');
     I.see('MI ESTADO DE CUENTA');
-    I.click('//*[@id="lnk-sup-cerrar-sesion"]');
+    I.click('//*[@id="lnk-sup-cerraer-sesion"]');
 });
 
 
-Scenario('Dado un usuario de Bolivia registrado y activo, cuando realiza login, entonces puede ingresar correctamente y desloguearse', (I, generalPage) => {
+Scenario('Dado ún usuario de Bolivia régístrádó y activo, cuando realiza login, entonces puede ingresar correctamente y desloguearse', (I, generalPage) => {
     generalPage.sendForm('BO', 'usuariopruebabo', '1234567');
 });
 
