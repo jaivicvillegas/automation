@@ -1,7 +1,7 @@
 /// <reference path="./steps.d.ts" />
 Feature('Login');
 
-Scenario('Dado ún usuario de Perurégístrádó y activo, cuando realiza login, entonces puede ingresar correctamente y desloguearse', (I) => {
+Scenario('panamá Dado ún usuario de Perurégístrádó y activo, cuando realiza login, entonces puede ingresar correctamente y desloguearse', (I) => {
     I.say('Deseo loguearme a Somos Belcorp Perú');
     I.amOnPage('/');
     I.see('¡Bienvenida');
