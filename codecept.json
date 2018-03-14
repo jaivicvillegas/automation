@@ -4,7 +4,8 @@
   "output": "./output",
   "helpers": {
     "Puppeteer": {
-      "url": "https://www.somosbelcorp.com/" 
+      "url": "https://www.somosbelcorp.com/", 
+        "uniqueScreenshotNames":"True"
     },
     "Mochawesome": {
     }
